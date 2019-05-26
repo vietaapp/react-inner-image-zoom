@@ -1,5 +1,5 @@
 {
-  "name": "React Inner Image Zoom Demo",
+  "name": "react-inner-image-zoom-demo",
   "homepage": "https://laurenashpole.github.io/react-inner-image-zoom",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +14,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build && cp build/index.html build/404.html"
   },
   "eslintConfig": {
     "extends": "react-app"
