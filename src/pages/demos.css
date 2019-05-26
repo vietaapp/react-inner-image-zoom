@@ -1,0 +1,45 @@
+.demos__heading {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.demos__nav {
+  margin-bottom: 1.5rem;
+  font-size: 0.950rem;
+  line-height: 1.75em;
+  text-align: center;
+}
+
+.demos__nav a {
+  margin-left: 0.75rem;
+}
+
+.demos__nav span {
+  color: #4b4b4b;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-style: italic;
+  letter-spacing: 0.015em;
+}
+
+@media (min-width: 768px) {
+  .demos__nav {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .demos__heading {
+    padding-left: 2rem;
+    text-align: left;
+  }
+
+  .demos__nav {
+    margin-bottom: 4.6rem;
+    padding-left: 2rem;
+    text-align: left;
+  }
+
+  .demos__nav a {
+    margin-left: 1rem;
+  }
+}
