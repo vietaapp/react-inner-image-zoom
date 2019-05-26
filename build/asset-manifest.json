@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-inner-image-zoom/static/css/main.85eba8d4.chunk.css",
-    "main.js": "/react-inner-image-zoom/static/js/main.a6f21e88.chunk.js",
-    "main.js.map": "/react-inner-image-zoom/static/js/main.a6f21e88.chunk.js.map",
+    "main.css": "/react-inner-image-zoom/static/css/main.63135e08.chunk.css",
+    "main.js": "/react-inner-image-zoom/static/js/main.d8438d15.chunk.js",
+    "main.js.map": "/react-inner-image-zoom/static/js/main.d8438d15.chunk.js.map",
     "runtime~main.js": "/react-inner-image-zoom/static/js/runtime~main.e502cfd5.js",
     "runtime~main.js.map": "/react-inner-image-zoom/static/js/runtime~main.e502cfd5.js.map",
     "static/js/2.6d6d277b.chunk.js": "/react-inner-image-zoom/static/js/2.6d6d277b.chunk.js",
     "static/js/2.6d6d277b.chunk.js.map": "/react-inner-image-zoom/static/js/2.6d6d277b.chunk.js.map",
     "index.html": "/react-inner-image-zoom/index.html",
-    "precache-manifest.83f6d83c18daa0969230e1f849f1eac3.js": "/react-inner-image-zoom/precache-manifest.83f6d83c18daa0969230e1f849f1eac3.js",
+    "precache-manifest.57527ccdb9ea87b3d761036f8cec6b5f.js": "/react-inner-image-zoom/precache-manifest.57527ccdb9ea87b3d761036f8cec6b5f.js",
     "service-worker.js": "/react-inner-image-zoom/service-worker.js",
-    "static/css/main.85eba8d4.chunk.css.map": "/react-inner-image-zoom/static/css/main.85eba8d4.chunk.css.map"
+    "static/css/main.63135e08.chunk.css.map": "/react-inner-image-zoom/static/css/main.63135e08.chunk.css.map"
   }
 }
