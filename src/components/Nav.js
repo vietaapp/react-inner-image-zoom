@@ -16,7 +16,7 @@ const Nav = () => {
 
       <ul className="nav__list nav__list--primary">
         <li className="nav__item nav__item--left">
-          <NavLink className="nav__link" to="/">+ Inner Image Zoom</NavLink>
+          <NavLink to="/" exact className="nav__link" activeClassName="nav__link--active">Inner Image Zoom</NavLink>
         </li>
         <li className="nav__item">
           <NavLink to="/demos" className="nav__link" activeClassName="nav__link--active">Demos</NavLink>

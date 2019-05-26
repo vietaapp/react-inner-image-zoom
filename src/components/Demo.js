@@ -42,13 +42,12 @@ class Demo extends Component {
                   );
                 })}
               </ul>
-              <a
-                href="javascript:void(0);"
+              <button
                 className="demo__code-btn"
                 onClick={this.handleClick}
               >
                 {this.state.showCode ? 'Hide Code -' : 'Show Code +'}
-              </a>
+              </button>
             </div>
           </div>
         </div>

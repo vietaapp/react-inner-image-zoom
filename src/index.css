@@ -36,6 +36,11 @@ a {
   color: #e55a02;
 }
 
+a:hover,
+a:focus {
+  color: #cc5002;
+}
+
 @media (min-width: 768px) {
   body:before {
     background-size: 35px;

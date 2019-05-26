@@ -127,9 +127,20 @@
   }
 
   .demo__code-btn {
+    background: transparent;
+    border: none;
+    outline: none;
+    appearance: none;
+    color: #e55a02;
+    font-family: inherit;
     position: absolute;
     left: 0;
     bottom: 4rem;
+    cursor: pointer;
+  }
+
+  .demo__code-btn:hover {
+    color: #cc5002;
   }
 
   .demo__code {

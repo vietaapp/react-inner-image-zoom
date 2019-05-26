@@ -34,6 +34,7 @@
 .product__btn:hover,
 .product__btn:focus {
   background: #cc5002;
+  color: #fff;
 }
 
 .product__list {

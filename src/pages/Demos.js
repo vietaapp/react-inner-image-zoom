@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Slick from 'react-slick';
 import Demo from '../components/Demo';
 import InnerImageZoom from '../components/InnerImageZoom';
@@ -8,7 +8,7 @@ import './slick-theme.css';
 
 const Demos = () => {
   return(
-    <div>
+    <Fragment>
       <h2 className="demos__heading">Demos</h2>
 
       <nav className="demos__nav">
@@ -54,7 +54,7 @@ const Demos = () => {
           </Slick>
         </Demo>
       </section>
-    </div>
+    </Fragment>
   );
 };
 
