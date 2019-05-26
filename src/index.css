@@ -1,13 +1,49 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*, *:before, *:after {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+html {
+  color: #373737;
+  font: 125% 'Mada', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 300;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body:before {
+  content: " ";
+  background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cstyle%3E.st0%7Bfill:none;stroke:%23ecedef;stroke-miterlimit:10%7D%3C/style%3E%3Cpath class='st0' d='M9.5 20h21M20 30.5v-21'/%3E%3C/svg%3E");
+  background-size: 27px;
+  background-position: right bottom;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 70%;
+  height: 70%;
+}
+
+h2 {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 2rem;
+  letter-spacing: 0.025em;
+}
+
+a {
+  color: #e55a02;
+}
+
+@media (min-width: 768px) {
+  body:before {
+    background-size: 35px;
+  }
+}
+
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 3rem;
+  }
 }

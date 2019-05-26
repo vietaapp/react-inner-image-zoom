@@ -1,6 +1,6 @@
 {
-  "name": "demo",
-  "homepage": "http://laurenashpole.github.io/react-inner-image-zoom",
+  "name": "React Inner Image Zoom Demo",
+  "homepage": "https://laurenashpole.github.io/react-inner-image-zoom",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

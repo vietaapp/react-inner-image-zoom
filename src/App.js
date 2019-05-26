@@ -1,7 +1,7 @@
 import React from 'react';
-import { NavLink, Route, Switch } from 'react-router-dom';
-import logo from './logo.svg';
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
+import Nav from './components/Nav';
 import Index from './pages/Index';
 import Demos from './pages/Demos';
 import Docs from './pages/Docs';
@@ -10,10 +10,7 @@ import Support from './pages/Support';
 function App() {
   return (
     <div className="App">
-      <NavLink className="nav__link" to="/">Index</NavLink>
-      <NavLink className="nav__link" to="/demos">Demos</NavLink>
-      <NavLink className="nav__link" to="/docs">Docs</NavLink>
-      <NavLink className="nav__link" to="/support">Support</NavLink>
+      <Nav />
 
       <div>
         <Switch>
