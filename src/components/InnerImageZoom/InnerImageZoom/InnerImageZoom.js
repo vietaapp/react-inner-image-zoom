@@ -223,6 +223,7 @@ class InnerImageZoom extends Component {
           onTouchStart={this.handleTouchStart}
           onMouseMove={!this.state.isTouch ? this.handleMouseMove : null}
           onTouchMove={this.state.isTouch ? this.handleTouchMove : null}
+          onClick={(e) => { e.preventDefault(); }}
         />
 
         {this.state.isTouch &&
