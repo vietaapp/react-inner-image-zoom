@@ -6,6 +6,7 @@ class FullscreenPortal extends Component {
   constructor(props) {
     super(props);
     this.el = document.createElement('div');
+    this.el.classList.add(props.className);
   }
 
   componentDidMount() {
@@ -25,7 +26,8 @@ class FullscreenPortal extends Component {
 }
 
 FullscreenPortal.propTypes = {
-  children: PropTypes.element
+  children: PropTypes.element,
+  className: PropTypes.string
 };
 
 export default FullscreenPortal;
