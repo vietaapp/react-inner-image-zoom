@@ -13,13 +13,34 @@
   pointer-events: none;
 }
 
+.iiz__zoom-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  -webkit-overflow-scrolling: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.iiz__zoom-container::-webkit-scrollbar {
+  display: none;
+}
+
+.iiz__zoom-container--fixed {
+  position: fixed;
+  z-index: 10000;
+}
+
 .iiz__zoom-img {
   width: auto !important;
   max-width: none !important;
   position: absolute;
   visibility: hidden;
   opacity: 0;
-  touch-action: none;
+  display: block;
 }
 
 .iiz__zoom-img--visible {
@@ -28,24 +49,23 @@
   cursor: zoom-out;
 }
 
-.iiz__zoom-portal {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 10000;
+.iiz__zoom-container .iiz__zoom-img {
+  position: static;
 }
 
 .iiz__btn {
   background: rgba(255, 255, 255, 0.8);
   width: 40px;
   height: 40px;
+  border: none;
+  outline: none;
+  padding: 0;
   position: absolute;
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  appearance: none;
 }
 
 .iiz__btn:before {
@@ -69,6 +89,7 @@
 }
 
 .iiz__close {
+  position: absolute;
   top: 10px;
   right: 10px;
   visibility: hidden;
