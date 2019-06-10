@@ -4,14 +4,15 @@ import './container.css';
 
 const Container = (props) => {
   return(
-    <div className="container">
+    <div className={`container ${props.className ? props.className : ''}`}>
       {props.children}
     </div>
   );
 };
 
 Container.propTypes = {
-  children: PropTypes.element
+  children: PropTypes.any,
+  className: PropTypes.string
 };
 
 export default Container;

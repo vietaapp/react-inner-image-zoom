@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Nav from './components/Nav';
 import Index from './pages/Index';
@@ -8,7 +8,7 @@ import Support from './pages/Support';
 
 function App() {
   return (
-    <div className="App">
+    <Fragment>
       <Nav />
 
       <Switch>
@@ -17,7 +17,7 @@ function App() {
         <Route path="/docs" component={Docs} />
         <Route path="/support" component={Support} />
       </Switch>
-    </div>
+    </Fragment>
   );
 }
 
