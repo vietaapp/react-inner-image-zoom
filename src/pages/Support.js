@@ -1,8 +1,9 @@
 import React from 'react';
+import Container from '../components/Container';
 
 const Support = () => {
   return(
-    <div>Support</div>
+    <Container>Support</Container>
   );
 };
 

@@ -1,8 +1,9 @@
 import React from 'react';
+import Container from '../components/Container';
 
 const Docs = () => {
   return(
-    <div>Docs</div>
+    <Container>Docs</Container>
   );
 };
 

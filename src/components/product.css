@@ -59,6 +59,7 @@
 @media (min-width: 768px) {
   .product {
     display: flex;
+    align-items: center;
   }
 
   .product__img {
@@ -72,6 +73,7 @@
   }
 
   .product__details h2 {
+    margin-top: 0;
     font-size: 2rem;
   }
 
