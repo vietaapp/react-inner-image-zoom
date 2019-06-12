@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
 import Slick from 'react-slick';
 import Container from '../components/Container';
 import Demo from '../components/Demo';
@@ -14,10 +15,10 @@ const Demos = () => {
 
       <nav className="demos__nav">
         <span>jump to:</span>
-        <a href="#basic">Basic</a>
-        <a href="#fullscreen">Fullscreen On Mobile</a>
-        <a href="#responsive">Responsive Images</a>
-        <a href="#slick">With Slick Carousel</a>
+        <HashLink to="/demos#basic">Basic</HashLink>
+        <HashLink to="/demos#fullscreen">Fullscreen On Mobile</HashLink>
+        <HashLink to="/demos#responsive">Responsive Images</HashLink>
+        <HashLink to="/demos#slick">With Slick Carousel</HashLink>
       </nav>
 
       <section id="basic">

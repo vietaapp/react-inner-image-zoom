@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
 import Container from '../components/Container';
 import './docs.css';
 
@@ -8,9 +9,9 @@ const Docs = () => {
       <h2 className="docs__heading">Docs</h2>
 
       <nav className="docs__nav">
-        <a href="#installation">Installation</a>
-        <a href="#usage">Usage</a>
-        <a href="#props">Props</a>
+        <HashLink to="#installation">Installation</HashLink>
+        <HashLink to="#usage">Usage</HashLink>
+        <HashLink to="#props">Props</HashLink>
       </nav>
 
       <section className="docs__content">
