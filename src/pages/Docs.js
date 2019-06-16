@@ -1,11 +1,10 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
-import Container from '../components/Container';
 import './docs.css';
 
 const Docs = () => {
   return(
-    <Container className="docs">
+    <div className="docs">
       <h2 className="docs__heading">Docs</h2>
 
       <nav className="docs__nav">
@@ -24,7 +23,7 @@ const Docs = () => {
         <h3 id="props">Props</h3>
         <p>TKTK</p>
       </section>
-    </Container>
+    </div>
   );
 };
 

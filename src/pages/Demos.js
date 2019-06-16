@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { HashLink } from 'react-router-hash-link';
 import Slick from 'react-slick';
-import Container from '../components/Container';
 import Demo from '../components/Demo';
 import InnerImageZoom from '../components/InnerImageZoom';
 import './demos.css';
@@ -10,7 +9,7 @@ import './slick-theme.css';
 
 const Demos = () => {
   return(
-    <Container>
+    <Fragment>
       <h2 className="demos__heading">Demos</h2>
 
       <nav className="demos__nav">
@@ -56,7 +55,7 @@ const Demos = () => {
           </Slick>
         </Demo>
       </section>
-    </Container>
+    </Fragment>
   );
 };
 
