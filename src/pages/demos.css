@@ -21,9 +21,17 @@
   letter-spacing: 0.015em;
 }
 
+.demos section:last-child .demo {
+  margin-bottom: 2rem;
+}
+
 @media (min-width: 768px) {
   .demos__nav {
     margin-bottom: 3rem;
+  }
+
+  .demos section:last-child .demo {
+    margin-bottom: 0;
   }
 }
 

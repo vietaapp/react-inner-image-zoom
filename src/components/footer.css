@@ -1,7 +1,7 @@
 .footer {
   background: #f2f3f7;
   margin-top: 2rem;
-  padding: 1.5rem 1.8rem;
+  padding: 1.5rem 0.8rem;
   text-align: right;
   position: relative;
 }
@@ -25,9 +25,12 @@
 }
 
 .footer__link span {
-  margin-right: 1rem;
+  margin-right: 0.95rem;
   border-right: 1px solid #e55a02;
   padding: 0.25rem 1rem 0.25rem 0;
+  font-size: 0.85rem;
+  font-weight: 400;
+  letter-spacing: 0.075em;
 }
 
 .footer__link:hover span {
@@ -41,7 +44,7 @@
 
 @media (min-width: 768px) {
   .footer {
-    margin-top: 7rem;
+    margin-top: 2rem;
     padding: 1.6rem;
   }
 
@@ -59,7 +62,7 @@
 
 @media (min-width: 1024px) {
   .footer {
-    margin-top: 9.5rem;
+    margin-top: 5rem;
   }
 
   .footer:before {

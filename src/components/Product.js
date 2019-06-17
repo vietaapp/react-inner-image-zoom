@@ -19,8 +19,8 @@ const Product = () => {
         <ul className="product__list">
           <li>Details</li>
           <li>Zoom + pan on hover and zoom + drag on touch</li>
-          <li>Can be used with other popular React components</li>
           <li>Supports responsive images</li>
+          <li>Can be used with other popular React components</li>
           <li>Photo credit: <a href="https://unsplash.com/photos/jQ0CTkvlz2U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Micheile Henderson</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a></li>
         </ul>
       </div>

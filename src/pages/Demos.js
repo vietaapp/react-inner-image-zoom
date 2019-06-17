@@ -9,7 +9,7 @@ import './slick-theme.css';
 
 const Demos = () => {
   return(
-    <Fragment>
+    <div className="demos">
       <h2 className="demos__heading">Demos</h2>
 
       <nav className="demos__nav">
@@ -55,7 +55,7 @@ const Demos = () => {
           </Slick>
         </Demo>
       </section>
-    </Fragment>
+    </div>
   );
 };
 

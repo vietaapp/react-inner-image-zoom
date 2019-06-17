@@ -6,7 +6,7 @@ const Index = () => {
   return(
     <Fragment>
       <Product />
-      <QuickStart />
+      {/*<QuickStart />*/}
     </Fragment>
   );
 };
