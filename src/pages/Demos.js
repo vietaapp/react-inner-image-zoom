@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 import Slick from 'react-slick';
 import Demo from '../components/Demo';
