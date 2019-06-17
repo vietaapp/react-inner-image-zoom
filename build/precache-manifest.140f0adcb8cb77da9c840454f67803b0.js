@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b2a1e47a69fe3c7e312dcbf0c14cd0da",
+    "revision": "b3aaceab3503515faad7b10b24db6a0c",
     "url": "/react-inner-image-zoom/index.html"
   },
   {
