@@ -1,3 +1,7 @@
+.product {
+  padding: 0.2rem 0.2rem 0 0.2rem;
+}
+
 .product__details {
   text-align: center;
 }
@@ -59,6 +63,7 @@
 
 @media (min-width: 768px) {
   .product {
+    padding: 0;
     display: flex;
     align-items: center;
   }
@@ -69,7 +74,7 @@
   }
 
   .product__details {
-    padding-left: 7.5%;
+    padding-left: 5%;
     font-size: 0.95rem;
     text-align: left;
   }
@@ -96,6 +101,7 @@
   }
 
   .product__details {
+    padding-left: 7.5%;
     font-size: 1rem;
   }
 

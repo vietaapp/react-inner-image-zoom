@@ -29,6 +29,11 @@
   left: 0.2rem;
 }
 
+.nav__item--left .nav__link:before {
+  visibility: visible;
+  opacity: 1;
+}
+
 .nav__link {
   color: #373737;
   text-decoration: none;
@@ -99,6 +104,17 @@
     font-weight: 900;
     text-transform: uppercase;
     position: static;
+  }
+
+  .nav__item--left .nav__link:before {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .nav__item--left .nav__link:hover:before,
+  .nav__item--left .nav__link--active:before {
+    visibility: visible;
+    opacity: 1;
   }
 }
 
