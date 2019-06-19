@@ -90,6 +90,7 @@ class InnerImageZoom extends Component {
 
   handleTouchMove = (e) => {
     e.preventDefault();
+    e.stopPropagation();
 
     let left = e.changedTouches[0].pageX - this.offsets.x;
     let top = e.changedTouches[0].pageY - this.offsets.y;

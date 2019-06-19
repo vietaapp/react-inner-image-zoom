@@ -1,97 +1,22 @@
 .quick-start {
-  /*background: #f2f3f7;*/
-  margin: 8em 0;
-  /*padding: 4rem;*/
-  display: flex;
-  align-items: center;
-  position: relative;
+  background: #f2f3f7;
+  margin: 4em 0 2rem 0;
+  padding: 1.6rem 1rem 1rem 1.6rem;
 }
-
-.quick-start:before {
-  content: " ";
-  background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cstyle%3E.st0%7Bfill:none;stroke:%23e7e8eB;stroke-miterlimit:10%7D%3C/style%3E%3Cpath class='st0' d='M9.5 20h21M20 30.5v-21'/%3E%3C/svg%3E");
-  background-size: 31px;
-  height: 100%;
-  position: absolute;
-  bottom: 2rem;
-  left: 0;
-  right: 2rem;
-  z-index: -1;
-}
-
-/*.quick-start__block {*/
-  /*width: 75%;*/
-  /*margin: 0 auto;*/
-/*  display: flex;
-  align-items: stretch;
-  position: relative;
-
-  background: #f2f3f7;*/
-/*}*/
-/*
-.quick-start__block:before {
-  content: " ";
-  background-color: #f2f3f7;
-  background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cstyle%3E.st0%7Bfill:none;stroke:%23d5d5df;stroke-miterlimit:10%7D%3C/style%3E%3Cpath class='st0' d='M9.5 20h21M20 30.5v-21'/%3E%3C/svg%3E");
-  background-size: 35px;
-  background-position: center bottom;
-  width: 87.5%;
-  height: 100%;
-  position: absolute;
-  bottom: -3em;
-  left: 50%;
-  transform: translateX(-50%);
-}*/
 
 .quick-start__heading {
-  /*background: #f2f3f7;*/
-  width: 33.333%;
+  margin: 0 0 1.6rem 0;
   text-align: center;
-  margin: 0 0 4rem 0;
-
-  /*margin: 2rem -12.5% 2rem 0;*/
-/*  position: relative;
-  z-index: 2;*/
-}
-
-.quick-start__heading span {
   font-family: 'Frank Ruhl Libre', serif;
   font-size: 2rem;
   letter-spacing: 0.025em;
-/*  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate3d(-50%, -50%, 0);*/
 }
 
-/*.quick-start__heading:before {
-  content: " ";
-  padding-bottom: 100%;
-  display: block;
-}*/
-
 .quick-start__content {
-  /*background: #fff;*/
-  /*padding: 2em 2em 2em calc(12.5% + 2em);*/
   color: #4b4b4b;
   flex-grow: 1;
   counter-reset: step;
-/*  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  z-index: 1;*/
 }
-
-/*.quick-start__content p {
-  margin-top: 0;
-}*/
-
-/*.quick-start__content p:last-child {
-  margin-bottom: 0;
-}*/
 
 .quick-start__content span {
   color: #9697ae;
@@ -103,47 +28,52 @@
 }
 
 .quick-start__step {
-  background: #f2f3f7;
-  margin-bottom: 0.65rem;
-  padding: 1.1rem 1rem 1rem calc(3rem + 45px);
+  background: #fff;
+  padding: 1.1rem 1rem 1rem calc(2rem + 30px);
   position: relative;
+}
+
+.quick-start__step + .quick-start__step {
+  margin-top: 0.75rem;
 }
 
 .quick-start__step:before {
   counter-increment: step;
   content: counter(step);
-  width: 60px;
-  height: 60px;
-  background: #fff;
-  /*border-radius: 50%;*/
+  background: #9697ae;
+  width: 45px;
+  height: 45px;
+  margin-top: -22.5px;
+  border-radius: 1px;
+  padding-right: 2px;
+  color: #fff;
   font-family: 'Frank Ruhl Libre', serif;
-  /*font-size: 4rem;*/
   font-style: italic;
-  /*line-height: 2.5rem;*/
-  /*letter-spacing: 0.025em;*/
+  line-height: 45px;
+  text-align: center;
   position: absolute;
-  bottom: 0;
-  left: 1rem;
+  top: 50%;
+  left: -15px;
+}
 
-counter-increment: step;
-    content: counter(step);
-    width: 45px;
-    height: 45px;
-    background: #fff;
-    /* border-radius: 50%; */
-    font-family: 'Frank Ruhl Libre', serif;
-    /* font-size: 4rem; */
-    /* font-style: italic; */
-    /* line-height: 2.5rem; */
-    /* letter-spacing: 0.025em; */
-    position: absolute;
-    bottom: 21px;
-    line-height: 45px;
-    text-align: center;
-    /* left: 1.25rem; */
-    left: -15px;
-    /* color: #e55a02; */
-    background: #9697ae;
-    /* font-weight: 700; */
-    color: #fff;
+@media (min-width: 768px) {
+  .quick-start {
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .quick-start__heading {
+    width: 33.333%;
+  }
+
+  .quick-start__heading span {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .quick-start {
+    margin-top: 8rem;
+  }
 }

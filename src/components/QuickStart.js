@@ -5,7 +5,7 @@ const QuickStart = () => {
   return(
     <section className="quick-start">
       <h3 className="quick-start__heading">
-        <span>Quick<br />Start</span>
+        Quick <span>Start</span>
       </h3>
 
       <div className="quick-start__content">

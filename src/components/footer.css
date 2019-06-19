@@ -72,6 +72,6 @@
 
 @media (min-width: 1164px) {
   .footer:before {
-    left: calc((100% - 1116px) / 2);
+    left: calc((100% - (1116px + 1.6rem)) / 2);
   }
 }

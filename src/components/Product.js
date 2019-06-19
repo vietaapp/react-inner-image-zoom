@@ -13,7 +13,7 @@ const Product = () => {
 
       <div className="product__details">
         <h2>React Inner Image Zoom Component</h2>
-        <p>Great for e-commerce product images!</p>
+        <p>Great for ecommerce product images!</p>
         <p className="product__price">$0</p>
         <a className="product__btn" href="https://github.com/laurenashpole/react-inner-image-zoom">View on Github</a>
         <ul className="product__list">
