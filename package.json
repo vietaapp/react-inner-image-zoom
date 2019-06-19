@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
+    "react-lazyload": "^2.6.1",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
     "react-router-hash-link": "^1.2.1",

@@ -108,7 +108,7 @@ class InnerImageZoom extends Component {
     this.zoomOut(() => {
       setTimeout(() => {
         if (this.state.isTouch) {
-          this.zoomImg.removeEventListener('touchmove', this.handleTouchMove);
+          this.zoomImg.removeEventListener('touchmove', this.handleTouchMove, { passive: false });
         }
 
         this.setDefaults();
@@ -161,7 +161,8 @@ class InnerImageZoom extends Component {
         pageX: initialPageX,
         pageY: initialPageY
       }],
-      preventDefault: () => {}
+      preventDefault: () => {},
+      stopPropagation: () => {}
     });
   }
 

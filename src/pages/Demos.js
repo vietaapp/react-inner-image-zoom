@@ -1,5 +1,6 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
+import LazyLoad from 'react-lazyload';
 import Slick from 'react-slick';
 import Demo from '../components/Demo';
 import InnerImageZoom from '../components/InnerImageZoom';
@@ -17,6 +18,7 @@ const Demos = () => {
         <HashLink to="/demos#basic">Basic</HashLink>
         <HashLink to="/demos#fullscreen">Fullscreen On Mobile</HashLink>
         <HashLink to="/demos#responsive">Responsive Images</HashLink>
+        <HashLink to="/demos#lazyload">With React Lazyload</HashLink>
         <HashLink to="/demos#slick">With Slick Carousel</HashLink>
       </nav>
 
@@ -43,6 +45,14 @@ const Demos = () => {
             }]}
             zoomSrc="images/unsplash-4-large.jpg"
           />
+        </Demo>
+      </section>
+
+      <section id="lazyload">
+        <Demo name="With React Lazyload" notes={['Integration with <a href="https://github.com/twobin/react-lazyload" target="_blank">React Laxyload</a>', 'Photo credit: <a href="https://unsplash.com/@jaywennington?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Jay Wennington</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>']} code={`<LazyLoad>\n\xa0\xa0<InnerImageZoom\n\xa0\xa0\xa0\xa0src="/path/to/image.jpg"\n\xa0\xa0\xa0\xa0zoomSrc="/path/to/zoom-image.jpg"\n\xa0\xa0/>\n</LazyLoad>`}>
+          <LazyLoad>
+            <InnerImageZoom src="images/unsplash-8.jpg" zoomSrc="images/unsplash-8-large.jpg" />
+          </LazyLoad>
         </Demo>
       </section>
 
