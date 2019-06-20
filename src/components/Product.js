@@ -1,8 +1,6 @@
 import React from 'react';
+import InnerImageZoom from 'react-inner-image-zoom';
 import './product.css';
-
-// TODO: Switch to module when published
-import InnerImageZoom from './InnerImageZoom';
 
 const Product = () => {
   return(

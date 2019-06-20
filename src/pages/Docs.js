@@ -43,8 +43,8 @@ const Docs = () => {
           <p><b>fullscreenOnMobile (Boolean)</b>Default false. Enables fullscreen zoomed image on touch devices below a specified breakpoint.</p>
           <p><b>mobileBreakpoint (Number)</b>Default 640. The maximum breakpoint for fullscreen zoom image when fullscreenOnMobile is true.</p>
           <p><b>className (String)</b>Custom classname for styling the component.</p>
-          <p><b>onZoomIn (Function)</b>Function to be called after zoom in.</p>
-          <p><b>onZoomOut (Function)</b>Function to be called after zoom out.</p>
+          <p><b>afterZoomIn (Function)</b>Function to be called after zoom in.</p>
+          <p><b>afterZoomOut (Function)</b>Function to be called after zoom out.</p>
 
           <h4>Sources</h4>
           <p>This prop accepts an array of objects which it uses to create a picture tag and source elements. The component looks for the following optional properties and you can find additional details <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images">here</a>: </p>

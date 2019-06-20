@@ -10,7 +10,7 @@ const Nav = () => {
           <a className="nav__link" href="https://github.com/laurenashpole/react-inner-image-zoom">Github</a>
         </li>
         <li className="nav__item">
-          <a className="nav__link" href="#">NPM</a>
+          <a className="nav__link" href="https://www.npmjs.com/package/react-inner-image-zoom">NPM</a>
         </li>
       </ul>
 

@@ -59,12 +59,14 @@
 @media (min-width: 768px) {
   .quick-start {
     margin-top: 6rem;
+    padding: 1.6rem;
     display: flex;
     align-items: center;
   }
 
   .quick-start__heading {
     width: 33.333%;
+    padding-right: 1.6rem;
   }
 
   .quick-start__heading span {

@@ -3,7 +3,7 @@ import { HashLink } from 'react-router-hash-link';
 import LazyLoad from 'react-lazyload';
 import Slick from 'react-slick';
 import Demo from '../components/Demo';
-import InnerImageZoom from '../components/InnerImageZoom';
+import InnerImageZoom from 'react-inner-image-zoom';
 import './demos.css';
 import './slick.css';
 import './slick-theme.css';
