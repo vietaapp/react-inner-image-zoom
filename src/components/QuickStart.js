@@ -14,6 +14,10 @@ const QuickStart = () => {
           <code>npm install react-inner-image-zoom</code>
         </div>
         <div className="quick-start__step">
+          <span>Style:</span>
+          <code>Grab styles.css from <a href="https://raw.githubusercontent.com/laurenashpole/react-inner-image-zoom/master/src/InnerImageZoom/styles.css" target="_blank" rel="noopener noreferrer">Github</a></code>
+        </div>
+        <div className="quick-start__step">
           <span>Import:</span>
           <code>import InnerImageZoom from 'react-inner-image-zoom'</code>
         </div>

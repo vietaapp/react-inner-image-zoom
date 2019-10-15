@@ -6,7 +6,7 @@ const Product = () => {
   return(
     <section className="product">
       <div className="product__img">
-        <InnerImageZoom src="images/unsplash-1.jpg" zoomSrc="images/unsplash-1-large.jpg" />
+        <InnerImageZoom src="images/unsplash-1.jpg" zoomSrc="images/unsplash-1-large.jpg" alt="Product style zoomable image" />
       </div>
 
       <div className="product__details">

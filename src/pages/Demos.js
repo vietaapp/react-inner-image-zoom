@@ -7,6 +7,7 @@ import InnerImageZoom from 'react-inner-image-zoom';
 import './demos.css';
 import './slick.css';
 import './slick-theme.css';
+import './iiz.css';
 
 const Demos = () => {
   return(
