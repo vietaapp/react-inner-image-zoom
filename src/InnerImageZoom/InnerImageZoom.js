@@ -40,6 +40,10 @@ class InnerImageZoom extends Component {
   }
 
   handleClick = (e) => {
+    if (this.props.onClick) {
+      this.props.onClick(e);
+    }
+
     if (this.state.isZoomed) {
       if (!this.state.isTouch) {
         this.zoomOut();
@@ -223,7 +227,9 @@ class InnerImageZoom extends Component {
       zoomSrc,
       alt,
       fadeDuration,
-      className
+      className,
+      onLoad,
+      style
     } = this.props;
 
     const zoomImageProps = {
@@ -246,6 +252,7 @@ class InnerImageZoom extends Component {
         onMouseEnter={this.state.isTouch ? null : this.handleMouseEnter}
         onMouseMove={this.state.isTouch || !this.state.isZoomed ? null : this.handleMouseMove}
         onMouseLeave={this.state.isTouch ? null : this.handleCloseClick}
+        style={style}
       >
         <Image
           src={src}
@@ -254,6 +261,7 @@ class InnerImageZoom extends Component {
           sources={sources}
           alt={alt}
           isZoomed={this.state.isZoomed}
+          onLoad={onLoad}
         />
 
         {this.state.isActive &&
@@ -288,7 +296,9 @@ InnerImageZoom.propTypes = {
   mobileBreakpoint: PropTypes.number,
   className: PropTypes.string,
   afterZoomIn: PropTypes.func,
-  afterZoomOut: PropTypes.func
+  afterZoomOut: PropTypes.func,
+  onLoad: PropTypes.func,
+  style: PropTypes.object,
 };
 
 InnerImageZoom.defaultProps = {
