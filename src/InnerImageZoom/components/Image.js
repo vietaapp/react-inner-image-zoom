@@ -33,6 +33,7 @@ const Image = ({
     ) : (
       <img
         className={`iiz__img ${className} ${isZoomed ? 'iiz__img--invisible' : ''}`}
+        {...rest}
       />
     )}
   </Fragment>
