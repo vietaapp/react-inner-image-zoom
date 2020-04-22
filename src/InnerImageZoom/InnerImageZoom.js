@@ -276,7 +276,7 @@ class InnerImageZoom extends Component {
           </Fragment>
         }
 
-        {!this.state.isZoomed &&
+        {this.props.showZoomButton && !this.state.isZoomed &&
           <span className="iiz__btn iiz__hint"></span>
         }
       </figure>
@@ -299,11 +299,13 @@ InnerImageZoom.propTypes = {
   afterZoomOut: PropTypes.func,
   onLoad: PropTypes.func,
   style: PropTypes.object,
+  showZoomButton: PropTypes.bool,
 };
 
 InnerImageZoom.defaultProps = {
   fadeDuration: 150,
-  mobileBreakpoint: 640
+  mobileBreakpoint: 640,
+  showZoomButton: true,
 };
 
 export default InnerImageZoom;
