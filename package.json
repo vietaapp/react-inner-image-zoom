@@ -1,9 +1,12 @@
 {
   "name": "@vietaapp/react-inner-image-zoom",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A React component for magnifying an image within its original container.",
   "main": "lib/index.js",
   "module": "es/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "files": [
     "css",
     "es",
@@ -31,14 +34,14 @@
     "semantic-release": "^17.0.7"
   },
   "author": "Lauren Ashpole",
-  "homepage": "https://github.com/laurenashpole/react-inner-image-zoom#readme",
+  "homepage": "https://github.com/vietaapp/react-inner-image-zoom#readme",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/laurenashpole/react-inner-image-zoom.git"
+    "url": "https://github.com/vietaapp/react-inner-image-zoom.git"
   },
   "bugs": {
-    "url": "https://github.com/laurenashpole/react-inner-image-zoom/issues"
+    "url": "https://github.com/vietaapp/react-inner-image-zoom/issues"
   },
   "keywords": [
     "react",
