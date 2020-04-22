@@ -26,13 +26,13 @@ const Image = ({
         })}
 
         <img
-          className={`iiz__img ${className} ${isZoomed ? 'iiz__img--invisible' : ''}`}
+          className={`iiz__img ${className ? className : ''} ${isZoomed ? 'iiz__img--invisible' : ''}`}
           {...rest}
         />
       </picture>
     ) : (
       <img
-        className={`iiz__img ${className} ${isZoomed ? 'iiz__img--invisible' : ''}`}
+        className={`iiz__img ${className ? className : ''} ${isZoomed ? 'iiz__img--invisible' : ''}`}
         {...rest}
       />
     )}

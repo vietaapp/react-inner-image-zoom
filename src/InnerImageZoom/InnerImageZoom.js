@@ -262,6 +262,7 @@ class InnerImageZoom extends Component {
           alt={alt}
           isZoomed={this.state.isZoomed}
           onLoad={onLoad}
+          style={this.props.imgStyle}
         />
 
         {this.state.isActive &&
